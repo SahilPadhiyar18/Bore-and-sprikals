@@ -6,7 +6,7 @@ from datetime import datetime
 import json
 import os
 import psycopg2
-import pandas as pd
+
 app = Flask(__name__)
 DATABASE_URL ='postgres://hzbckwzoqtmlqe:a0f34997b0c650328b4187f36564e47527d06b787f84733fb05555f4e9a9c15d@ec2-52-204-157-26.compute-1.amazonaws.com:5432/d7j9i3rbgtinuj'
            
