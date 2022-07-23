@@ -40,7 +40,7 @@ DATABASE_URL ='postgres://hzbckwzoqtmlqe:a0f34997b0c650328b4187f36564e47527d06b7
 
 @app.route('/', methods=['GET', 'POST']) 
 def home_page():    
-    changedata("lawbore",1,"sahil")
+#     changedata("lawbore",1,"sahil")
     return render_template('login.html')
 
 @app.route('/LoginSubmit', methods=['POST'])
